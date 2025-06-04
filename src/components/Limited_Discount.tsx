@@ -113,11 +113,11 @@ const Limited_Discount = () => {
                     </div>
                     <motion.div 
                         whileTap={{
-                            scale: 0.85
+                            scale: 0.8
                         }}
                         transition={{
-                            duration: 0.2,
-                            ease: 'easeIn'
+                            duration: 0.1,
+                            ease: 'linear'
                         }}
                         onClick={handleClick} className="col-span-1 relative shadow-sm h-[60px] cursor-pointer shadow-gray-400 text-red-600 flex justify-center items-center rounded-[12px] bg-zinc-100 "
                     >
