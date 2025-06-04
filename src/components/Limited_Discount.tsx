@@ -96,11 +96,11 @@ const Limited_Discount = () => {
 
     return (
         <div className="relative">
-            <div ref={box} className="absolute overflow-hidden grid grid-cols-5 p-[10px] gap-[4px] sm:gap-[10px] -translate-y-full -top-[8px] sm:-top-[30px] rounded-[12px] right-0 w-[400px] max-sm:w-[300px] bg-zinc-100 shadow-sm shadow-gray-400 opacity-0 scale-0 origin-bottom-right ">
-                <div className="col-span-3 velocity_text translate-x-[40px] text-neutral-600 max-sm:text-[16px] text-[24px] flex justify-center items-center h-[40px] sm:h-[60px] ">
+            <div ref={box} className="absolute overflow-hidden flex justify-between items-center p-[10px] sm:gap-[10px] -translate-y-full -top-[8px] sm:-top-[30px] rounded-[12px] right-0 w-[400px] max-sm:w-[300px] bg-zinc-100 shadow-sm shadow-gray-400 opacity-0 scale-0 origin-bottom-right ">
+                <div className="col-span-3 velocity_text translate-x-[40px] text-neutral-600 max-sm:text-[16px] text-[24px] flex justify-center items-center h-[40px] sm:h-[60px]  sm:pl-[4px]">
                     10 % OFF with code 
                 </div>
-                <div className="bg-neutral-400 velocity_text translate-x-[40px] font-semibold text-[16px] sm:text-[20px] flex flex-row justify-center items-center h-[40px] sm:h-[60px] text-neutral-600 col-span-2 w-full rounded-[8px] ">
+                <div className="bg-neutral-400 velocity_text translate-x-[40px] font-semibold text-[16px] sm:text-[20px] flex flex-row justify-center items-center h-[40px] sm:h-[60px] max-sm:px-2 px-[8px] text-neutral-600 col-span-2 rounded-[8px] ">
                     <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  className="icon icon-tabler icons-tabler-outline icon-tabler-copy"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" /><path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1" /></svg>
                     &nbsp;
                     VELOCITY
