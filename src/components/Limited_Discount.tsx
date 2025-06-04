@@ -116,7 +116,8 @@ const Limited_Discount = () => {
                             scale: 0.8
                         }}
                         transition={{
-                            duration: 0.4,
+                            duration: 0.3,
+                            ease: 'easeIn'
                         }}
                         onClick={handleClick} className="col-span-1 relative shadow-sm h-[60px] cursor-pointer shadow-gray-400 text-red-600 flex justify-center items-center rounded-[12px] bg-zinc-100 "
                     >
